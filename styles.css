@@ -1,0 +1,39 @@
+:root {
+  --clr-primery: #ee6352;
+  --clr-body: #333;
+  --clr-bg: #ddd;
+}
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125rem;
+  color: var(--clr-body);
+  background-color: var(--clr-bg);
+}
+.content {
+  background: white;
+  padding: 3rem;
+  box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
+  width: min(500px, 70%);
+  /* width: min(500px, 70%); */
+}
+
+.titel {
+  margin: 0, 0, 5em;
+  font-weight: 900;
+  color: var(--clr-primery);
+  line-height: 0.8;
+  font-size: clamp(2rem, 5vw, 5rem);
+}
+
+P {
+  /* font-size: 2vw; */
+  font-size: calc(1vw + 0.5rem);
+
+  background-color: lightblue;
+  /* width: 50%; */
+  /* width: clamp(200px, 50%, 20rem); */
+}
